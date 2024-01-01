@@ -20,5 +20,7 @@ You can use divmod(x, y) it will return (x//y, x%y) in int
 </div>
 
 <div id='detail'>
-
+Image of methods of roman
+<br>
+<img src="https://github.com/Kira5-cmd/Roman/blob/main/img/example.png">
 </div>
