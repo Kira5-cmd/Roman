@@ -15,13 +15,26 @@ class NotIntegerError(Exception):
     def __init__(self, *args: object) -> None:
         super().__init__(*args)
 
+class NegIntError(Exception):
+    def __init__(self, *args: object) -> None:
+        super().__init__(*args)
+
+#some minor function
+def isnegative(no):
+    return not(no == abs(no))
+
 class Roman:
     """roman no class"""
     def __init__(self, no:int) -> None:
         if not isinstance(no, int):
             raise NotIntegerError("no should be integer")
+        
+        elif isnegative(no):
+            raise NegIntError("negative is not allowed")
+        
         if no == 0:
             raise ZeroNotInRoman("Zero is not in Roman")
+        
         self.__int_no = no
         self.__roman_no = Roman.__change_int_to_Roman(no)
         self.__current_no = 0
@@ -116,5 +129,5 @@ class Roman:
             index += 1
         return roman_value
 
-    
-
+if __name__ == "__main__":
+    a = Roman(1)
