@@ -9,11 +9,11 @@ b = Roman(90)
 
 print(a) #it will return you XC
 sum = a + b #it will return Roman(180) -> CLXXX
-diff = a - b # it will give erorr <a href="#ZeroNotInRoman">ZeroNotInRoman<a> 
-true_div = a/b # Error: <a href="#NotIntegerError">NotIntegerError</a>
+diff = a - b # it will give erorr <a>ZeroNotInRoman<a> 
+true_div = a/b # Error: <a>NotIntegerError</a>
   
 #Errors
-<a id="ZeroNotInRoman"> Error means zero can't be written as roman because roman numbersystem doesnot have 0. </a>
-<a id="NotIntegerError"> This error means you can only give integer as argument </a>
+"ZeroNotInRoman": Error means zero can't be written as roman because roman numbersystem doesnot have 0. </a>
+"NotIntegerError": This error means you can only give integer as argument </a>
 <a></a>
 </pre>
