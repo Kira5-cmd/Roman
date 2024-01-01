@@ -18,3 +18,7 @@ You can use divmod(x, y) it will return (x//y, x%y) in int
 <br>
 3.NotIntegerError : this error tells you arg is not integer Roman() only takes integer
 </div>
+
+<div id='detail'>
+
+</div>
