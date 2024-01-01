@@ -10,7 +10,7 @@ License :
 <div id="erors">
 1. NotTrueDiv : "truedive operations(/) can't be performed on roman nums because roman no can't be written as decimal"<br>
 
-<b>
+<b><br>
 Note
 You can use divmod(x, y) it will return (x//y, x%y) in int
 </b><br>
