@@ -13,8 +13,8 @@ License :
 <b>
 Note
 You can use divmod(x, y) it will return (x//y, x%y) in int
-</b>
+</b><br>
 2.ZeroNotInRoman : this error means zero can't be written as zero because roman num system have not any symbol for 0
-
+<br>
 3.NotIntegerError : this error tells you arg is not integer Roman() only takes integer
 </div>
